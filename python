@@ -186,3 +186,64 @@ import time
 #         pass
 #     else:
 #         print(i)
+
+##2D list = a list of lists(multi dimensional list)
+
+# drinks = ["coffe", "soda" , "tea"]
+# dinner = ["pizza","hamburger","hotdog"]
+# dessert = ["cake","ice cream"]
+#
+# food = [drinks,dinner,dessert]
+# print(food[1][2]) #~je kono 1ta elm acces korte hoile 2D set list use korte hobe
+
+
+##tuple = collection which is ordered and unchangable
+#         ek rokom data eksthe korar jonno use kora hoy
+# same like list,except tuple is ordered and unchangable
+# student = ("bro","27","male")
+#
+# print(student.count("bro"))   #checking value
+#print(student.index("male"))  #certain value er index ber kora
+
+#for x in student:   #for loop diye sobgula value dekha jabe
+#    print(x)
+#(if) certain value amader tuple a ache kina setao check kora jay
+
+# if "bro" in student:
+#     print("My G! what`s up?")
+
+
+### set = collection which is unordered, unindexed, no duplicate values
+# set create korte hole sobgula value ke 3rd bracket/ {}
+#  diye
+
+
+#utenils = {"fork", "spoon","knife"}
+#utenils2 = {"fork", "spoon","knife","knife","knife"} # etar result a
+#  knife 1bari asbe set er karone
+#dishes = {"bowl", "plate", "cup","knife"}
+#set function:
+# utenils.add("napkin")
+# utenils.remove("spoon")
+# utenils.clear()
+#utenils.update(dishes)
+#dinner_table = utenils.union(dishes)
+#print(utenils.difference(dishes)) #2 set er simillarity, difference dekha jay
+#print(utenils.intersection(dishes))
+#value gulake jodi display kori taile list er moto ordered hobe na
+#kono value bracket moddhe ache kina oita list er set a faster check kora jay
+
+#for x in dinner_table:
+#    print(x)
+
+
+#dictionary = A changable, unordered collection of unique key: values pairs
+#            fast because they use hassing, allow us to access a value quickly
+
+capitals = {'USA': 'Washington DC',
+            'India': 'New Dehili',
+            'China': ' beijing',
+            'Russia': 'Moscow'}     #no of index use korar bodole amra key:value use korte pari
+
+print(capitals['Russia'])
+
